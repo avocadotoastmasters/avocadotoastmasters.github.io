@@ -350,7 +350,41 @@ body, html {
 
 
 
+/* Modals */
 
+.modal-dialog {
+    max-width: 860px;
+}
+.modal-content {
+	background-color: #fafafc;
+}
+.modal-header {
+	background-color: #fafafc;
+}
+.modal-body {
+	background-color: #fafafc;
+	color: #555555;
+	font-family: 'Gilroy-Light', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.modal-body h3 {
+	color: #1D396E;
+	font-family: 'Playfair Display', serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 1.3em;
+}
 
-
-
+button {
+    color: #555555;
+    background: none;
+    border: none;
+    padding: 0;
+    text-decoration-line: underline;
+    text-decoration-color: #D0D5DE;
+}
+button:hover {
+    color: #007bff;
+    cursor: pointer;
+}
